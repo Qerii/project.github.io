@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+hr{
+	display: block;
+	margin: 0.5em auto 0.5em auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+h1{
+	font-size: 30px;
+	font-family: serif, Lucida Sans Unicode, Comic Sans MS, Impact, cursive, Verdana;
+	
+}
+
+#pic {
+	left: 70%;
+	margin-top: -120px;
+	height: 110px;
+	width: 150px;
+	border: 1px solid white;
+	border-radius: 2px;
+	display: block;
+	position: absolute;
+	background-color:#F36;
+	background-image: url('Topaz.jpg');
+	background-size: 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+	-ms-transform: rotate(260deg); /* IE 9 */
+    -webkit-transform: rotate(260deg); /* Chrome, Safari, Opera */
+    transform: rotate(260deg);
+}
+
+
+
+#container {
+	width: 90%;
+	margin:auto;
+}
+
+#left{
+	padding-right: 50px;
+	float: left;
+	border-right: 1px solid #000;
+}
+
+#right{
+	margin-left: 50px;
+	float: left;
+	
+}
+
+
+
